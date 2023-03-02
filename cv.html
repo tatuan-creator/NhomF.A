@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #eee;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <h2>Frontend Developer</h2>
+        </header>
+
+        <section>
+            <h3>Contact Information</h3>
+            <ul>
+                <li>Address: 123 Main St, Anytown, USA</li>
+                <li>Phone: (555) 555-1234</li>
+                <li>Email: john.doe@example.com</li>
+                <li>Website: johndoe.com</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <h4>Bachelor's Degree in Computer Science</h4>
+            <p>XYZ University, Anytown, USA (2010 - 2014)</p>
+        </section>
+
+        <section>
+            <h3>Experience</h3>
+            <h4>Frontend Developer</h4>
+            <p>ABC Company, Anytown, USA (2014 - Present)</p>
+            <ul>
+                <li>Develop and maintain company website</li>
+                <li>Collaborate with designers to create responsive, user-friendly interfaces</li>
+                <li>Optimize website performance through code optimization and image compression</li>
+                <li>Write and maintain automated tests using Jest and Enzyme</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Projects</h3>
+            <h4>Project Name</h4>
+            <p>Description of project.</p>
+            <ul>
+                <li>Technology used: HTML, CSS, JavaScript</li>
+                <li>Link: <a href="#">project-link.com</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Certifications</h3>
+            <h4>Google Analytics Certification</h4>
+            <p>Issued by Google (2017)</p>
+        </section>
+    </div>
+</body>
+
+</html>
